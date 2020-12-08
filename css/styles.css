@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg-img {
+    background-image: url(/img/lake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* canvas */
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.rounded-md {
+    border-radius: 1.5rem;
+}
+
+.border-none {
+    border: none;
+}
+
+.border-sm {
+    border: 1px solid white;
+}
+
+/* colors */
+.bg-primary {
+    background-color: #498c52;
+}
+
+.txt-white {
+    color: #ffffff;
+}
+
+.opacity {
+    opacity: 0.2;
+}
+
+.opacity-md {
+    opacity: 0.5;
+}
+
+
+
+/* display */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+
+
+/* spacing */
+.w-35 {
+    width: 35%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.h-100 {
+    height: 100vh;
+}
+
+.my-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.my-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mx-2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.m-left-4 {
+    margin-left: 4.7rem;
+}
+
+.px-2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.px-4 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.py-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
